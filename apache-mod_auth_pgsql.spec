@@ -21,8 +21,8 @@ Requires(pre):  apache >= %{apache_version}
 Requires:	apache-conf >= %{apache_version}
 Requires:	apache >= %{apache_version}
 BuildRequires:  apache-devel >= %{apache_version}
-BuildPrereq:	postgresql-devel
-BuildPrereq:	openssl-devel
+BuildRequires:	postgresql-devel
+BuildRequires:	openssl-devel
 Epoch:		1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
