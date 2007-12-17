@@ -24,7 +24,6 @@ BuildRequires:  apache-devel >= %{apache_version}
 BuildRequires:	postgresql-devel
 BuildRequires:	openssl-devel
 Epoch:		1
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 mod_auth_pgsql can be used to limit access to documents served by a web server
