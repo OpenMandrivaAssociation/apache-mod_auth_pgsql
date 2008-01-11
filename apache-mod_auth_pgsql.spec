@@ -7,7 +7,7 @@
 Summary:	Basic authentication for the apache web server using a PostgreSQL database
 Name:		apache-%{mod_name}
 Version:	2.0.3
-Release:	%mkrel 9
+Release:	%mkrel 10
 Group:		System/Servers
 License:	Apache License
 URL:		http://www.giuseppetanzilli.it/mod_auth_pgsql2/
