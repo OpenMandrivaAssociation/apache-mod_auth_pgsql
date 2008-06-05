@@ -7,7 +7,7 @@
 Summary:	Basic authentication for the apache web server using a PostgreSQL database
 Name:		apache-%{mod_name}
 Version:	2.0.3
-Release:	%mkrel 11
+Release:	%mkrel 12
 Group:		System/Servers
 License:	Apache License
 URL:		http://www.giuseppetanzilli.it/mod_auth_pgsql2/
@@ -24,7 +24,7 @@ BuildRequires:  apache-devel >= %{apache_version}
 BuildRequires:	postgresql-devel
 BuildRequires:	openssl-devel
 Epoch:		1
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_auth_pgsql can be used to limit access to documents served by a web server
