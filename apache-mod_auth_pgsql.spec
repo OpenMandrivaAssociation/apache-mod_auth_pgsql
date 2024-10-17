@@ -10,7 +10,7 @@ Version:	2.0.3
 Release:	%mkrel 19
 Group:		System/Servers
 License:	Apache License
-URL:		http://www.giuseppetanzilli.it/mod_auth_pgsql2/
+URL:		https://www.giuseppetanzilli.it/mod_auth_pgsql2/
 Source0:	http://www.giuseppetanzilli.it/mod_auth_pgsql2/dist/%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}
 Patch0:		mod_auth_pgsql-2.0.3-nonpgsql.diff
